@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:background="@drawable/bg" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/lin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/bgi">
+
+                        <ImageView
+                            android:id="@+id/k1"
+                            android:layout_width="140dp"
+                            android:layout_height="125dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/school"
+                            android:onClick="profilclick"/>
+
+                        <TextView
+                            android:id="@+id/myImageViewText"
+                            android:layout_width="70dp"
+                            android:layout_height="25dp"
+                            android:layout_alignLeft="@+id/k1"
+                            android:layout_alignTop="@+id/k1"
+                            android:layout_alignRight="@+id/k1"
+                            android:layout_alignBottom="@+id/k1"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="PROFIL SEKOLAH"
+                            android:textColor="#000000"
+                            android:textSize="12dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/bgi">
+
+                        <ImageView
+                            android:id="@+id/k2"
+                            android:layout_width="140dp"
+                            android:layout_height="125dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/blackboard"
+                            android:onClick="kelasclick"/>
+
+                        <TextView
+                            android:id="@+id/myImageViewText"
+                            android:layout_width="70dp"
+                            android:layout_height="25dp"
+                            android:layout_alignLeft="@+id/k2"
+                            android:layout_alignTop="@+id/k2"
+                            android:layout_alignRight="@+id/k2"
+                            android:layout_alignBottom="@+id/k2"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="KELAS"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/bgi">
+
+                        <ImageView
+                            android:id="@+id/k3"
+                            android:layout_width="140dp"
+                            android:layout_height="125dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/maintenance"
+                            android:onClick="fasilitasclick"/>
+
+                        <TextView
+                            android:id="@+id/myImageViewText"
+                            android:layout_width="70dp"
+                            android:layout_height="25dp"
+                            android:layout_alignLeft="@+id/k3"
+                            android:layout_alignTop="@+id/k3"
+                            android:layout_alignRight="@+id/k3"
+                            android:layout_alignBottom="@+id/k3"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="FASILITAS"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/lin"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/bgi">
+
+                        <ImageView
+                            android:id="@+id/k1"
+                            android:layout_width="140dp"
+                            android:layout_height="125dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/teamwork"
+                            android:onClick="guruclick"/>
+
+                        <TextView
+                            android:id="@+id/myImageViewText"
+                            android:layout_width="70dp"
+                            android:layout_height="25dp"
+                            android:layout_alignLeft="@+id/k1"
+                            android:layout_alignTop="@+id/k1"
+                            android:layout_alignRight="@+id/k1"
+                            android:layout_alignBottom="@+id/k1"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="GURU"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/bgi">
+
+                        <ImageView
+                            android:id="@+id/k2"
+                            android:layout_width="140dp"
+                            android:layout_height="125dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/stationery"
+                            android:onClick="pelajaranclick"/>
+
+                        <TextView
+                            android:id="@+id/myImageViewText"
+                            android:layout_width="70dp"
+                            android:layout_height="25dp"
+                            android:layout_alignLeft="@+id/k2"
+                            android:layout_alignTop="@+id/k2"
+                            android:layout_alignRight="@+id/k2"
+                            android:layout_alignBottom="@+id/k2"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="PELAJARAN"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:background="@drawable/bgi">
+
+                        <ImageView
+                            android:id="@+id/k3"
+                            android:layout_width="140dp"
+                            android:layout_height="125dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingBottom="25dp"
+                            android:src="@drawable/sports"
+                            android:onClick="ekskulclick"/>
+
+                        <TextView
+                            android:id="@+id/myImageViewText"
+                            android:layout_width="70dp"
+                            android:layout_height="25dp"
+                            android:layout_alignLeft="@+id/k3"
+                            android:layout_alignTop="@+id/k3"
+                            android:layout_alignRight="@+id/k3"
+                            android:layout_alignBottom="@+id/k3"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="EKSKUL"
+                            android:textColor="#000000"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
