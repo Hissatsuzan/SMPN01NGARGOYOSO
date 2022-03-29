@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SMP N 01 NGARGOYOSO</string>
+    <string name="masjid">Masjid di gunakan untuk beribadah bagi guru dan siswa SMP N 01 Ngargoyoso yang beragama islam.Selain untuk beribadah Masjid juga di gunakan untuk tempat mengaji, pengajian</string>
+    <string name="lbing">Laboratorium bahasa merupakan alat untuk melatih pembelajar mendengarkan dan berbicara dalam bahasa asing dengan cara menyanyikan materi pembelajaran yang telah disediakan sebelumnya. Dengan memutar rekaman yang berisi pembelajaran siswa menjawab pertanyaan atau mengulangi kalimat atau lafal kata-kata.</string>
+    <string name="lbkim">Laboratorium Kimia Dasar merupakan laboratorium yang kegiatannya meliputi penerapan dasar praktikum kimia, yaitu Penimbangan, Pemipetan, Pelarutan, Pembuatan Larutan Standard, Dan Identifikasi Bahan/Produk Secara Fisik Dan Kimia</string>
+    <string name="lbfik">laboratorium fisika merupakan suatu tempat baik terbuka maupun tertutup yang berisi suatu alat percobaan atau praktikum pelajaran fisika yang berfungsi untuk memberikan kepastian, memferivikasi suatu teori, kaidah, prinsip, konsep atau hukum dalam fisika serta menguatkan informasi</string>
 </resources>
+

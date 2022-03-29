@@ -9,6 +9,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN01NGARGOYOSO">
+        <activity
+            android:name=".FasilitasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EkskulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PelajaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KelasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OsisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SilatActivity"
+            android:exported="false" />
+
+
+
         <activity android:name=".MainActivity">
 
         </activity>

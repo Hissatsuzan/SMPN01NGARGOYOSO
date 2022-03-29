@@ -17,12 +17,13 @@
             android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/bgi">
+            android:background="@drawable/bgi"
+            android:onClick="osisclick">
 
             <ImageView
                 android:layout_width="125dp"
                 android:layout_height="125dp"
-                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
                 android:layout_gravity="center"
                 android:src="@drawable/osis" />
 
@@ -41,7 +42,8 @@
             android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/bgi">
+            android:background="@drawable/bgi"
+            android:onClick="imclick">
 
             <ImageView
                 android:layout_width="125dp"
@@ -65,23 +67,24 @@
             android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/bgi">
+            android:background="@drawable/bgi"
+            android:onClick="pmrclick">
 
             <ImageView
                 android:layout_width="125dp"
+                android:layout_marginStart="15dp"
                 android:layout_height="125dp"
-                android:layout_marginLeft="15dp"
                 android:layout_gravity="center"
-                android:src="@drawable/pmi" />
+                android:src="@drawable/pmr" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="PALANG MERAH REMAJA"
-                android:textSize="20dp"
                 android:gravity="center"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:text="PALANG MERAH REMAJA"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -89,7 +92,8 @@
             android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/bgi">
+            android:background="@drawable/bgi"
+            android:onClick="basketclick">
 
             <ImageView
                 android:layout_width="125dp"
@@ -101,53 +105,34 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:text="BASKET"
+                android:textColor="@color/black"
                 android:textSize="20dp"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+                android:textStyle="bold" />
         </LinearLayout>
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/bgi">
+            android:background="@drawable/bgi"
+            android:onClick="silatclick">
 
             <ImageView
                 android:layout_width="125dp"
                 android:layout_height="125dp"
                 android:layout_gravity="center"
-                android:src="@drawable/osis" />
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/ipsi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="OSIS"
-                android:textSize="20dp"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/bgi">
-
-            <ImageView
-                android:layout_width="125dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:src="@drawable/osis" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="OSIS"
+                android:text="PENCAK SILAT"
                 android:textSize="20dp"
                 android:gravity="center"
                 android:textStyle="bold"

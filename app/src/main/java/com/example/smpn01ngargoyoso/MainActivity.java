@@ -11,8 +11,7 @@ public class MainActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-    public void guruclick(View view) {
+    }public void guruclick(View view) {
         Intent intent = new Intent(MainActivity.this, GuruActivity.class);
         startActivity(intent);
     }public void kelasclick(View view) {
