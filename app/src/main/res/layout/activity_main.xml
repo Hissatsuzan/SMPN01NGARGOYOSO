@@ -9,7 +9,7 @@
     android:orientation="vertical">
 
     <ScrollView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <LinearLayout
@@ -17,10 +17,21 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <View
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
-                android:background="@drawable/bg" />
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:background="@drawable/dep" />
+
+            </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -40,8 +51,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="25dp"
-                        android:onClick="profilclick"
-                        android:background="@drawable/bgi">
+                        android:background="@drawable/bgi"
+                        android:onClick="profilclick">
 
                         <ImageView
                             android:id="@+id/k1"
@@ -63,16 +74,16 @@
                             android:gravity="center"
                             android:text="PROFIL SEKOLAH"
                             android:textColor="#000000"
-                            android:textSize="12dp"
+                            android:textSize="10dp"
                             android:textStyle="bold" />
                     </RelativeLayout>
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:onClick="kelasclick"
                         android:layout_marginBottom="25dp"
-                        android:background="@drawable/bgi">
+                        android:background="@drawable/bgi"
+                        android:onClick="kelasclick">
 
                         <ImageView
                             android:id="@+id/k2"
@@ -94,36 +105,7 @@
                             android:gravity="center"
                             android:text="KELAS"
                             android:textColor="#000000"
-                            android:textStyle="bold" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="25dp"
-                        android:onClick="fasilitasclick"
-                        android:background="@drawable/bgi">
-
-                        <ImageView
-                            android:id="@+id/k3"
-                            android:layout_width="140dp"
-                            android:layout_height="125dp"
-                            android:layout_marginTop="10dp"
-                            android:paddingBottom="25dp"
-                            android:src="@drawable/maintenance" />
-
-                        <TextView
-                            android:id="@+id/myImageViewText"
-                            android:layout_width="70dp"
-                            android:layout_height="25dp"
-                            android:layout_alignLeft="@+id/k3"
-                            android:layout_alignTop="@+id/k3"
-                            android:layout_alignRight="@+id/k3"
-                            android:layout_alignBottom="@+id/k3"
-                            android:layout_marginTop="100dp"
-                            android:gravity="center"
-                            android:text="FASILITAS"
-                            android:textColor="#000000"
+                            android:textSize="10dp"
                             android:textStyle="bold" />
                     </RelativeLayout>
 
@@ -139,9 +121,9 @@
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:onClick="guruclick"
                         android:layout_marginBottom="25dp"
-                        android:background="@drawable/bgi">
+                        android:background="@drawable/bgi"
+                        android:onClick="guruclick">
 
                         <ImageView
                             android:id="@+id/k1"
@@ -161,47 +143,18 @@
                             android:layout_alignBottom="@+id/k1"
                             android:layout_marginTop="100dp"
                             android:gravity="center"
-                            android:text="GURU"
+                            android:text="GURU DAN STAF"
                             android:textColor="#000000"
+                            android:textSize="10dp"
                             android:textStyle="bold" />
                     </RelativeLayout>
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:onClick="pelajaranclick"
                         android:layout_marginBottom="25dp"
-                        android:background="@drawable/bgi">
-
-                        <ImageView
-                            android:id="@+id/k2"
-                            android:layout_width="140dp"
-                            android:layout_height="125dp"
-                            android:layout_marginTop="10dp"
-                            android:paddingBottom="25dp"
-                            android:src="@drawable/stationery" />
-
-                        <TextView
-                            android:id="@+id/myImageViewText"
-                            android:layout_width="70dp"
-                            android:layout_height="25dp"
-                            android:layout_alignLeft="@+id/k2"
-                            android:layout_alignTop="@+id/k2"
-                            android:layout_alignRight="@+id/k2"
-                            android:layout_alignBottom="@+id/k2"
-                            android:layout_marginTop="100dp"
-                            android:gravity="center"
-                            android:text="PELAJARAN"
-                            android:textColor="#000000"
-                            android:textStyle="bold" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:onClick="ekskulclick"
-                        android:layout_marginBottom="25dp"
-                        android:background="@drawable/bgi">
+                        android:background="@drawable/bgi"
+                        android:onClick="ekskulclick">
 
                         <ImageView
                             android:id="@+id/k3"
@@ -223,10 +176,54 @@
                             android:gravity="center"
                             android:text="EKSKUL"
                             android:textColor="#000000"
+                            android:textSize="10dp"
                             android:textStyle="bold" />
                     </RelativeLayout>
                 </LinearLayout>
+
+
             </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/bgi"
+                    android:onClick="fasilitasclick">
+
+                    <ImageView
+                        android:id="@+id/k3"
+                        android:layout_width="140dp"
+                        android:layout_height="125dp"
+                        android:layout_marginTop="10dp"
+                        android:paddingBottom="25dp"
+                        android:src="@drawable/maintenance" />
+
+                    <TextView
+                        android:id="@+id/myImageViewText"
+                        android:layout_width="70dp"
+                        android:layout_height="25dp"
+                        android:layout_alignLeft="@+id/k3"
+                        android:layout_alignTop="@+id/k3"
+                        android:layout_alignRight="@+id/k3"
+                        android:layout_alignBottom="@+id/k3"
+                        android:layout_marginTop="100dp"
+                        android:gravity="center"
+                        android:text="FASILITAS"
+                        android:textColor="#000000"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

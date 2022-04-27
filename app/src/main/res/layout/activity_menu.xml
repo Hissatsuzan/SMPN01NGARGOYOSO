@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    tools:context=".MenuActivity"
+    android:layout_gravity="center">
 
     <View
         android:layout_width="wrap_content"
@@ -14,8 +15,8 @@
 
     <ImageView
         android:id="@+id/iv_menu"
-        android:layout_width="225dp"
-        android:layout_height="225dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/school"/>
+        android:src="@drawable/logo" />
 </RelativeLayout>

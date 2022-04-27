@@ -12,13 +12,15 @@
         android:layout_marginBottom="25dp"
         android:padding="5dp">
 
-        <androidx.cardview.widget.CardView
+        <LinearLayout
+            android:onClick="masjidclick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginBottom="25dp">
 
             <LinearLayout
+                android:background="@drawable/bgi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -27,6 +29,7 @@
                     android:layout_width="125dp"
                     android:paddingTop="10dp"
                     android:layout_height="125dp"
+                    android:src="@drawable/ramadan"
                     android:layout_gravity="center" />
 
                 <TextView
@@ -38,22 +41,11 @@
                     android:textStyle="bold"
                     android:paddingBottom="5dp"
                     android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/masjid"
-                    android:gravity="center"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:background="@color/white"
-                    android:elevation="10dp"
-                    android:padding="10dp"/>
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        </LinearLayout>
 
-        <androidx.cardview.widget.CardView
+        <LinearLayout
+            android:onClick="labclick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -62,9 +54,11 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgi">
 
                 <ImageView
+                    android:src="@drawable/microscope"
                     android:layout_width="125dp"
                     android:paddingTop="10dp"
                     android:layout_height="125dp"
@@ -73,28 +67,17 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="LAB BAHASA"
+                    android:text="LABORATORIUM"
                     android:textSize="20dp"
                     android:gravity="center"
                     android:textStyle="bold"
                     android:paddingBottom="5dp"
                     android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/lbing"
-                    android:gravity="center"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:background="@color/white"
-                    android:elevation="10dp"
-                    android:padding="10dp"/>
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        </LinearLayout>
 
-        <androidx.cardview.widget.CardView
+        <LinearLayout
+            android:onClick="perclick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -103,9 +86,11 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgi">
 
                 <ImageView
+                    android:src="@drawable/bookshelf"
                     android:layout_width="125dp"
                     android:paddingTop="10dp"
                     android:layout_height="125dp"
@@ -114,28 +99,17 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="LAB KIMIA"
+                    android:text="PERPUSTAKAAN"
                     android:textSize="20dp"
                     android:gravity="center"
                     android:textStyle="bold"
                     android:paddingBottom="5dp"
                     android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/lbkim"
-                    android:gravity="center"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:background="@color/white"
-                    android:elevation="10dp"
-                    android:padding="10dp"/>
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        </LinearLayout>
 
-        <androidx.cardview.widget.CardView
+        <LinearLayout
+            android:onClick="lapclick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -144,50 +118,11 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/bgi">
 
                 <ImageView
-                    android:layout_width="125dp"
-                    android:paddingTop="10dp"
-                    android:layout_height="125dp"
-                    android:layout_gravity="center" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="LAB FISIKA"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:textStyle="bold"
-                    android:paddingBottom="5dp"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/lbfik"
-                    android:gravity="center"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginLeft="5dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:background="@color/white"
-                    android:elevation="10dp"
-                    android:padding="10dp"/>
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="25dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
+                    android:src="@drawable/field"
                     android:layout_width="125dp"
                     android:paddingTop="10dp"
                     android:layout_height="125dp"
@@ -202,21 +137,40 @@
                     android:textStyle="bold"
                     android:paddingBottom="5dp"
                     android:textColor="@color/black"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:onClick="kanclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bgi">
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:paddingTop="10dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/canteen"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/lbing"
+                    android:text="KANTIN"
+                    android:textSize="20dp"
                     android:gravity="center"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginLeft="5dp"
                     android:textStyle="bold"
-                    android:textColor="@color/black"
-                    android:background="@color/white"
-                    android:elevation="10dp"
-                    android:padding="10dp"/>
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/black"/>
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
